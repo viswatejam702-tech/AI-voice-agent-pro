@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-voice-agent-api
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        value: gpt-4.1-mini

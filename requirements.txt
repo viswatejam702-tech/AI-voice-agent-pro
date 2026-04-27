@@ -1,0 +1,7 @@
+openai
+sounddevice
+numpy
+webrtcvad-wheels
+python-dotenv
+fastapi
+uvicorn
